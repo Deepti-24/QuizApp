@@ -1,1 +1,4415 @@
-
+[
+  {
+    "question": "You can use C++ as a procedural, as well as an object-oriented language",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "A default catch block catches",
+    "options": {
+      "A": "all thrown objects",
+      "B": "no thrown objects",
+      "C": "any thrown object that has not been caught by an earlier catch block",
+      "D": "all thrown objects that have been caught by an earlier catch block"
+    },
+    "answer": "C",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Adding a derived class to a base class requires fundamental changes to the base class",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Format flags may be combined using",
+    "options": {
+      "A": "the bitwise OR operator (|)",
+      "B": "the logical OR operator (||)",
+      "C": "the bitwise AND operator (&)",
+      "D": "the logical AND operator (&&)"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "The use of the break statement in a switch statement is",
+    "options": {
+      "A": "optional",
+      "B": "compulsory",
+      "C": "not allowed. It gives an error message",
+      "D": "to check an error",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "When you omit parameters from a function call, values can be provided by",
+    "options": {
+      "A": "formal parameters",
+      "B": "reference parameters",
+      "C": "overloaded parameters",
+      "D": "default parameters"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "The first element in a string is",
+    "options": {
+      "A": "the name of the string",
+      "B": "the first character in the string",
+      "C": "the length of the string",
+      "D": "the name of the array holding the string"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Variables declared outside a block are called _____",
+    "options": {
+      "A": "global",
+      "B": "universal",
+      "C": "stellar",
+      "D": "external"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "The compiler converts your C++ instructions into _____",
+    "options": {
+      "A": "edited code",
+      "B": "object code",
+      "C": "source code",
+      "D": "translated code"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "A fundamental type such as int or double is a _____",
+    "options": {
+      "A": "programmer-defined type",
+      "B": "complex type",
+      "C": "nonscalar type",
+      "D": "scalar type"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "The return type you code for all constructors is _____",
+    "options": {
+      "A": "void",
+      "B": "the class type",
+      "C": "the same type as the first data member defined in the class",
+      "D": "no type"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "When an object-oriented program detects an error within a function, the function _________",
+    "options": {
+      "A": "throws an exception",
+      "B": "throws a fit",
+      "C": "catches a message",
+      "D": "catches an exception"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Using a statement at the wrong time or with an inappropriate object creates a",
+    "options": {
+      "A": "logical error",
+      "B": "syntax error",
+      "C": "compiler error",
+      "D": "language error"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "When you create a derived class and instantiate an object _____",
+    "options": {
+      "A": "the parent class object must be constructed first",
+      "B": "the child class object must be constructed first",
+      "C": "the parent class object must not be constructed",
+      "D": "the child class object must not be constructed"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Evaluate the following expression: 4 >6 || 10 < 2 * 6",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "A constructor always has",
+    "options": {
+      "A": "communicational cohesion",
+      "B": "temporal cohesion",
+      "C": "logical cohesion",
+      "D": "no cohesion"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "A normal C++ operator that acts in special ways on newly defined data types is said to be",
+    "options": {
+      "A": "glorified",
+      "B": "encapsulated",
+      "C": "classified",
+      "D": "overloaded"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "A function in a derived class that has the same name as a function in the parent class",
+    "options": {
+      "A": "will override the base class function",
+      "B": "will cause an error message to display",
+      "C": "will be overridden by the base class function",
+      "D": "will execute immediately often the base class function executes"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "In which statements, does a 'continue' statements cause the control to go directly to the test condition and then continue the looping process?",
+    "options": {
+      "A": "'for' and 'while'",
+      "B": "'while' and 'if-else'",
+      "C": "'do-while' and 'if-else'",
+      "D": "'while' and 'do-while'",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Which of the following statements is false?",
+    "options": {
+      "A": "You typically use a public member function to change the value in a private data member",
+      "B": "Because the constructor function does not return a value, you place the keyword void before the constructor's name",
+      "C": "The public member functions in a class can be accessed by any program that uses an object created from that class",
+      "D": "An instance of a class is considered an object"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "In a class specifier, data or functions designated private are accessible",
+    "options": {
+      "A": "to any function in the program",
+      "B": "only if you know the password",
+      "C": "to member functions of that class",
+      "D": "only to public members of the class"
+    },
+    "answer": "C",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "When a function includes a throw statement for errors, the call to the potentially offending function should be placed within a _____ block",
+    "options": {
+      "A": "throw",
+      "B": "try",
+      "C": "catch",
+      "D": "scope"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "The scope resolution operator is",
+    "options": {
+      "A": "a comma",
+      "B": "a semicolon",
+      "C": "a colon",
+      "D": "two colons"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "\"C++\" is a _____ constant",
+    "options": {
+      "A": "character literal",
+      "B": "named literal",
+      "C": "numeric literal",
+      "D": "string literal"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "In a C++ program, which of the following can be thrown?",
+    "options": {
+      "A": "scalar variables",
+      "B": "programmer-defined objects",
+      "C": "both (a) and (b)",
+      "D": "neither (a) nor (b)"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "The items listed in the function header are called _____",
+    "options": {
+      "A": "actual arguments",
+      "B": "formal parameters",
+      "C": "passed parameters",
+      "D": "sent arguments"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "A translator that notes whether you have used a language correctly may be called a _____",
+    "options": {
+      "A": "theasurus",
+      "B": "compiler",
+      "C": "coder",
+      "D": "decoder"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "The feature in object-oriented programming that allows the same operation to be carried out differently, depending on the object, is_____",
+    "options": {
+      "A": "inheritance",
+      "B": "polymorphism",
+      "C": "overfunctioning",
+      "D": "overriding"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "When an argument is passed by reference,",
+    "options": {
+      "A": "a variable is created in the function to hold the argument's value",
+      "B": "the function cannot access the argument's value",
+      "C": "a temporary variable is created in the calling program to hold the argument's value",
+      "D": "the function accesses the argument's original value in the calling program",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "The process of extracting the relevant attributes of an object is known as",
+    "options": {
+      "A": "polymorphism",
+      "B": "inheritance",
+      "C": "abstraction",
+      "D": "data hiding"
+    },
+    "answer": "C",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Which of the following statements uses the computer's clock to initialize the random number generator?",
+    "options": {
+      "A": "srand(time);",
+      "B": "srand(time(NULL));",
+      "C": "time(srand);",
+      "D": "time(srand(NULL));"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "A static data member is given a value",
+    "options": {
+      "A": "within the class definition",
+      "B": "outside the class definition",
+      "C": "when the program is executed",
+      "D": "never"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "You must provide a constructor for a derived class",
+    "options": {
+      "A": "always",
+      "B": "if  the   base   class   constructor required arguments",
+      "C": "if the base class constructor does not required arguments",
+      "D": "never"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "If you want to override constructor default values for an object you are instantiating, you must also override",
+    "options": {
+      "A": "all   other   parameters   to   that constructor",
+      "B": "all parameters to the left of that value",
+      "C": "all parameters to the right of that value",
+      "D": "no   other   parameters   to   that constructor"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "To use one of the   C++ built-in mathematical functions, you must include the _____ header file in your program",
+    "options": {
+      "A": "calculation.h",
+      "B": "compute.h",
+      "C": "expression.h",
+      "D": "math.h",
+      "E": "mathematical.h"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Errors in a program are called",
+    "options": {
+      "A": "accidents",
+      "B": "annoyances",
+      "C": "bugs",
+      "D": "mistakes",
+      "E": "typing errors"
+    },
+    "answer": "C",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "If you declare two objects as Customer firstCust, secondCust; which of the following must be true?",
+    "options": {
+      "A": "Each object's nonstatic data members will be stored in the same memory location",
+      "B": "Each object will be stored in the same memory location",
+      "C": "Each object will have a unique memory address",
+      "D": "You cannot declare two objects of the same class"
+    },
+    "answer": "C",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Which of the following is the inequality operator?",
+    "options": {
+      "A": "!=",
+      "B": "=",
+      "C": "==",
+      "D": "-->",
+      "E": "<>"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "If a derived class uses the public access specifier, then _____",
+    "options": {
+      "A": "public base class members remain public in the derived class",
+      "B": "protected base class members become public in the derived class",
+      "C": "both (a) and (b)",
+      "D": "neither (a) nor (b)"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "The operator that releases previously allocated memory is _____",
+    "options": {
+      "A": "release",
+      "B": "return",
+      "C": "delete",
+      "D": "destroy"
+    },
+    "answer": "C",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "The last statement in a function is often a(n) _____",
+    "options": {
+      "A": "return",
+      "B": "goodbye",
+      "C": "finish",
+      "D": "endfunction"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "When the function int someFunction(char c) throw( ) is executed, _____",
+    "options": {
+      "A": "it can throw anything",
+      "B": "it may throw an integer",
+      "C": "it may throw a character",
+      "D": "it may not throw anything"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "The two statements that can be used to change the flow of control are",
+    "options": {
+      "A": "if and switch",
+      "B": "if and while",
+      "C": "switch and do-while",
+      "D": "break and continue",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "If p and q are assigned the values 2 and 3 respectively then the statement p = q++",
+    "options": {
+      "A": "gives an error message",
+      "B": "assigns a value 4 to p",
+      "C": "assigns a value 3 to p",
+      "D": "assigns a value 5 to p",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Which of the following is the insertion operator?",
+    "options": {
+      "A": ">>",
+      "B": "<<",
+      "C": "//",
+      "D": "/*",
+      "E": "both (a) and (b)"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "If you want only one memory location to be reserved for a class variable, no matter how many objects are instantiated, you should declare the variable as",
+    "options": {
+      "A": "static",
+      "B": "unary",
+      "C": "dynamic",
+      "D": "volatile"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "To use a template class member function, use the ________ with the instantiation",
+    "options": {
+      "A": "scope resolution operator",
+      "B": "dot operator",
+      "C": "class definition",
+      "D": "keword template"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "When a class is derived from another derived class, the newly derived class",
+    "options": {
+      "A": "may have more liberal access to a base class member than its immediate predecessor",
+      "B": "may have the same type of access to a base class member as its immediate predecessor",
+      "C": "may have more limited access to a base class member than its immediate predecessor",
+      "D": "both (b) and (c)"
+    },
+    "answer": "C",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "If you assign a default value to any variable in a function prototype's parameter list, then _____",
+    "options": {
+      "A": "all other parameters in the function prototype must have default values",
+      "B": "all parameters to the right of that variable must have default values",
+      "C": "all parameters to the left of that variable must have default values",
+      "D": "no other parameters in that prototype can have default values"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "The dot operator (or class member access operator) connects the following two entities (reading from left to right):",
+    "options": {
+      "A": "a class member and a class object",
+      "B": "a class object and a class",
+      "C": "a class and a member of that class",
+      "D": "a class object and a member of that class"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Which of the following calls a function named displayName, passing it no actual arguments?",
+    "options": {
+      "A": "call displayName;",
+      "B": "call displayName ();",
+      "C": "displayName;",
+      "D": "displayName();"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "The feature that allows you to use the same function name for separate functions that have different argument lists is called  _____",
+    "options": {
+      "A": "overriding",
+      "B": "overloading",
+      "C": "constructing",
+      "D": "destructing"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Which of the following are valid characters constants?",
+    "options": {
+      "A": "'\\n'",
+      "B": "'\\\\'",
+      "C": "'\\0'",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "With a template class, _____ type is generic",
+    "options": {
+      "A": "no",
+      "B": "exactly one",
+      "C": "at least one",
+      "D": "at most one"
+    },
+    "answer": "C",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "If you want to use a class to define objects in many different programs, you should define the class in a C++ _____ file",
+    "options": {
+      "A": "header",
+      "B": "program",
+      "C": "source",
+      "D": "text"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Functions that returns information about an object's state can be classified as ________",
+    "options": {
+      "A": "inspector functions",
+      "B": "mutator functions",
+      "C": "auxiliary functions",
+      "D": "manager functions"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "An auxiliary function _____",
+    "options": {
+      "A": "return  information  about data members",
+      "B": "changes the state of data members",
+      "C": "performs an action or service",
+      "D": "creates and destroys objects"
+    },
+    "answer": "C",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "To create and execute a C++ program, you need to have access to",
+    "options": {
+      "A": "a C++ compiler",
+      "B": "a C++ translator",
+      "C": "an object code editor",
+      "D": "a text editor",
+      "E": "both (a) and (d)"
+    },
+    "answer": "E",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "If you omit any constructor argument when you instantiate an object, you must use default values______",
+    "options": {
+      "A": "for all parameters to the constructor",
+      "B": "for all parameters to the right of the argument",
+      "C": "for all parameters to the left of the argument",
+      "D": "for no other parameters"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Many programmers separate a class into two files: _____",
+    "options": {
+      "A": "one for the declarations and one for the implementations",
+      "B": "one for the void functions and one for the other functions",
+      "C": "one for the public data and one for the private data",
+      "D": "one for the primary functions and one for the auxiliary functions"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Files whose names end in .h are called  _____ files",
+    "options": {
+      "A": "handy",
+      "B": "header",
+      "C": "helper",
+      "D": "helping"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "When accessing a structure member, the identifier to the left of the dot operator is the name of",
+    "options": {
+      "A": "a structure member",
+      "B": "a structure tag",
+      "C": "a structure variable",
+      "D": "the keyword struct"
+    },
+    "answer": "C",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Assume that a program contains a programmer-defined void function. When C++ encounters the function's closing brace (}), C++ returns to the statement _____",
+    "options": {
+      "A": "immediately above the statement that called the function",
+      "B": "that called the function",
+      "C": "immediately below the statement that called the function"
+    },
+    "answer": "C",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Inheritance occurs when a class adopts all the traits of _________",
+    "options": {
+      "A": "an object",
+      "B": "a parent class",
+      "C": "a variable",
+      "D": "a function"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Template classes that have already been written to perform common class tasks are called _____",
+    "options": {
+      "A": "container classes",
+      "B": "receptacle classes",
+      "C": "repository classes",
+      "D": "alembic classes"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "A _____ is a single item of information about a person, place, or thing",
+    "options": {
+      "A": "data file",
+      "B": "field",
+      "C": "program file",
+      "D": "record"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Which (if any) of the following is NOT a programmer-defined type",
+    "options": {
+      "A": "an array",
+      "B": "a structure",
+      "C": "a class",
+      "D": "All of the above are programmer-defined types"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Assume a program contains a void function named displayName, which requires no formal parameters. Which of the following is a correct function prototype for this function?",
+    "options": {
+      "A": "displayName;",
+      "B": "displayName(void);",
+      "C": "void displayName;",
+      "D": "void displayName();",
+      "E": "void displayName(none);"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "A file pointer always contains the address of the file",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "You declare a function with a function _____, which is typically entered at the  beginning of the program, below the #include directives",
+    "options": {
+      "A": "call",
+      "B": "prototype declaration",
+      "C": "definition",
+      "D": "pointer"
+    },
+    "answer": "B",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "The function whose prototype is Item getData(void); returns _____",
+    "options": {
+      "A": "the address of a structure",
+      "B": "a copy of a structure",
+      "C": "a pointer to a structure",
+      "D": "nothing"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Using new may result in less _____ memory than using an array",
+    "options": {
+      "A": "wasted",
+      "B": "used",
+      "C": "RAM",
+      "D": "ROM"
+    },
+    "answer": "A",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "The most common operation used in constructors is",
+    "options": {
+      "A": "addition",
+      "B": "overloading",
+      "C": "assignment",
+      "D": "polymorphism"
+    },
+    "answer": "C",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "In a simple 'if' statement with no 'else'. What happens if the condition following the 'if is false?",
+    "options": {
+      "A": "the program searches for the last else in the program",
+      "B": "nothing",
+      "C": "control 'falls through' to the statement following 'if",
+      "D": "the body of the statement is executed",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "If two types of errors may be thrown, you should write _______",
+    "options": {
+      "A": "no catch blocks",
+      "B": "one catch block with two arguments",
+      "C": "two catch block-one with an argument, and one without",
+      "D": "two catch blocks with one argument each"
+    },
+    "answer": "D",
+    "topic": "object-oriented-programming-using-cpp"
+  },
+  {
+    "question": "Which symbol will be used with grep command to match the pattern pat at the beginning of a line?",
+    "options": {
+      "A": "^pat",
+      "B": "$pat",
+      "C": "pat$",
+      "D": "pat^",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used to sort the lines of data in a file in reverse order",
+    "options": {
+      "A": "sort",
+      "B": "sh",
+      "C": "st",
+      "D": "sort -r",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used to display the top of the file?",
+    "options": {
+      "A": "cat",
+      "B": "head",
+      "C": "more",
+      "D": "grep",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used to copy all files having the string chap and any two characters after that to the progs directory?",
+    "options": {
+      "A": "cp chap?? progs",
+      "B": "cp chap* progs",
+      "C": "cp chap[12] /progs/*.*",
+      "D": "cp chap?? /progs/*",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used to change protection mode of files starting with the string emp and ending with 1,2, or 3?",
+    "options": {
+      "A": "chmod u+x emp[1-3]",
+      "B": "chmod 777 emp*",
+      "C": "chmod u+r ??? emp",
+      "D": "chmod 222 emp?",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following files contains information related to password aging?",
+    "options": {
+      "A": "Shadow",
+      "B": "password",
+      "C": "profile",
+      "D": "All the three",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command will be used with vi editor to replace text from cursor to right?",
+    "options": {
+      "A": "r",
+      "B": "R",
+      "C": "s",
+      "D": "S",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following commands is used to rename a file?",
+    "options": {
+      "A": "rename",
+      "B": "remove",
+      "C": "mv",
+      "D": "ren",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following is not a filter?",
+    "options": {
+      "A": "cat",
+      "B": "grep",
+      "C": "wc",
+      "D": "sort",
+      "E": "None of the above"
+    },
+    "answer": "E",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following commands is used to copy a file wb from the programs directory into a file called wbx in the misc directory?",
+    "options": {
+      "A": "copy programs/wb misc/wbx",
+      "B": "cp programs/wb misc/wbx",
+      "C": "tar programs/wb misc/wbx",
+      "D": "copy a:programs/wb b:misc/wbx",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used to list all the files with extension .lst?",
+    "options": {
+      "A": "ls -l *.lst",
+      "B": "ls lst*",
+      "C": "ls *.*",
+      "D": "ls *[lst]",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "Which option is used with the chmod command recursively to all files and sub-directories in a directory?",
+    "options": {
+      "A": "-1",
+      "B": "-i",
+      "C": "-x",
+      "D": "-R",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used to change directory to the name beginning with a 'p'?",
+    "options": {
+      "A": "cd p",
+      "B": "cd p?",
+      "C": "cd p*",
+      "D": "cd [p]",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following is invalid filename?",
+    "options": {
+      "A": "shutry",
+      "B": "TRY",
+      "C": "trial",
+      "D": "my .file",
+      "E": "None of the above"
+    },
+    "answer": "E",
+    "topic": "unix"
+  },
+  {
+    "question": "Which commands is used to assign executable permission to all of the files named \"letter\"?",
+    "options": {
+      "A": "chmod ugo+r letter",
+      "B": "chmod ugo+rw letter",
+      "C": "chmod u+x letter",
+      "D": "chmod ugo+x letter",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "unix"
+  },
+  {
+    "question": "Which set option is used with vi editor to display line numbers on screen?",
+    "options": {
+      "A": "nm",
+      "B": "nu",
+      "C": "ic",
+      "D": "li",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used to print a file?",
+    "options": {
+      "A": "print",
+      "B": "prn",
+      "C": "pg",
+      "D": "lp",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command will be used with vi editor to replace single character under cursor with any number of characters?",
+    "options": {
+      "A": "s",
+      "B": "S",
+      "C": "a",
+      "D": "i",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following set options is used with vi editor to ignore case while searching for patterns?",
+    "options": {
+      "A": "ic",
+      "B": "ai",
+      "C": "sm",
+      "D": "ts",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used to list out all the hidden files along with the other files?",
+    "options": {
+      "A": "ls -l",
+      "B": "ls -x",
+      "C": "ls -F",
+      "D": "ls -a",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following commands is used to absolutely assign all permissions to the owner, read and write permissions to the group and only executable permission to the others of the file note?",
+    "options": {
+      "A": "chmod 761 note",
+      "B": "chmod 671 note",
+      "C": "chmod 167 note",
+      "D": "chmod 4=rwx, g=rw note",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "The chmod ugo+rw note command can be represented in octal notation as",
+    "options": {
+      "A": "chmod 555 note",
+      "B": "chmod 666 note",
+      "C": "chmod 444 note",
+      "D": "chmod 333 note",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following commands is used to display the filenames in multiple columns with indication of directories and executable file?",
+    "options": {
+      "A": "ls -F -x",
+      "B": "ls -l",
+      "C": "ls ~ x",
+      "D": "Ip",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used with vi editor to search a pattern in the forward direction?",
+    "options": {
+      "A": "/",
+      "B": "?",
+      "C": "//",
+      "D": "??",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following commands is used to assign executable permission to the owner of the file named \"note\"?",
+    "options": {
+      "A": "chmod g+x note",
+      "B": "chmod u+w note",
+      "C": "chmod u+x note",
+      "D": "chmod ugo+x note",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "unix"
+  },
+  {
+    "question": "The command to count the number of files in the current directory by using pipes, is",
+    "options": {
+      "A": "ls | wc",
+      "B": "ls -l | wc -l",
+      "C": "ls | wc -w",
+      "D": "ls | ws -c",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following commands is used to get directory one level up?",
+    "options": {
+      "A": "cd",
+      "B": "cd ..",
+      "C": "cd/",
+      "D": "chdir",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following commands is used to count the total number of lines, words, and characters contained in a file.",
+    "options": {
+      "A": "count p",
+      "B": "wc",
+      "C": "wcount",
+      "D": "countw",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used to delete all files in the current directory as well as all files and sub-directories in its subdirectories?",
+    "options": {
+      "A": "rm *",
+      "B": "rm -r *",
+      "C": "rm all",
+      "D": "rm *.*",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following commands is used to change the working directory?",
+    "options": {
+      "A": "cd",
+      "B": "changedir",
+      "C": "chdir",
+      "D": "cdir",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following commands is used to view your file 24 lines at a time?",
+    "options": {
+      "A": "pg",
+      "B": "cat",
+      "C": "lp",
+      "D": "/p",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "Which shell's wild-cards is used to match a single character?",
+    "options": {
+      "A": "*",
+      "B": "?",
+      "C": "[ijk]",
+      "D": "[!ijk]",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "In Bourne shell, which file sets the Unix environment for the user when the logs into his HOME directory.",
+    "options": {
+      "A": ".exrc",
+      "B": ".profile",
+      "C": "lastlogin",
+      "D": ".mbox",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used to copy the three files wb, collect and mon into the misc directory, under the same, when you were currently in the programs directory?",
+    "options": {
+      "A": "copy wb ../misc collect ../misc mon ../misc",
+      "B": "cp wb collect mon ../misc",
+      "C": "copy wb collect mon /misc",
+      "D": "tar wb collect mon /misc",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "The command chmod 761 note is equivalent to",
+    "options": {
+      "A": "chmod 167 note",
+      "B": "chmod u=rwx, g=rw, o=x note",
+      "C": "chmo a =761 note",
+      "D": "chmod 4=7, g=6,0 =1 note",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "The commonly used UNIX commands like date, ls, cat, etc. are stored in",
+    "options": {
+      "A": "/dev directory",
+      "B": "/bin and /usr/bin directories",
+      "C": "/tmp directory",
+      "D": "/unix directory",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following commands is used to remove files with confirmation prompt from the user file system which have neither been accessed nor modified i the last one year?",
+    "options": {
+      "A": "find -mtime +365 | rm",
+      "B": "grep (/usr/*) - mtime + 365 | -ok rm",
+      "C": "find -name - mtime + 365 / - ok rm",
+      "D": "find /user/* \\(-mtime + 365 - a - atime +365 \\) - OK rm {} \\;",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following commands is used to summarize the disk usage?",
+    "options": {
+      "A": "chkdsk",
+      "B": "fdisk",
+      "C": "du",
+      "D": "disk",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used to sort the lines of data in a file in alphabetical order?",
+    "options": {
+      "A": "sort",
+      "B": "sh",
+      "C": "st",
+      "D": "sort -r",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "If a file has read and write permissions for the owner, then the octal representation of the permissions will be",
+    "options": {
+      "A": "1",
+      "B": "6",
+      "C": "5",
+      "D": "3",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "The File that contains a set of instructions which are performed when a user logs in, is",
+    "options": {
+      "A": ".exrc",
+      "B": ".profile",
+      "C": ".autoexec",
+      "D": "autoexec.bat",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "The octal representation 652 indicates",
+    "options": {
+      "A": "Execute permission for the owner",
+      "B": "Write permission for others",
+      "C": "Read and write permission of groups",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following command is used to count just the number of lines contained in a file?",
+    "options": {
+      "A": "wc -l",
+      "B": "wc -c",
+      "C": "wc -w",
+      "D": "wc -r",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following command is used to go to home directory?",
+    "options": {
+      "A": "cd..",
+      "B": "cd/",
+      "C": "cd",
+      "D": "cd HOME.",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used to move all files to the bin sub-directory of the parent directory?",
+    "options": {
+      "A": "mv *.* /bin/",
+      "B": "mv * /bin/*",
+      "C": "mv * ../bin",
+      "D": "mv * ../bin *.*",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used to save the standard output in a file, as well as display it on the terminal?",
+    "options": {
+      "A": "more",
+      "B": "cat",
+      "C": "grep",
+      "D": "tee",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "unix"
+  },
+  {
+    "question": "The command that can be used to restrict incoming messages to a user is",
+    "options": {
+      "A": "mesg",
+      "B": "grep",
+      "C": "halt",
+      "D": "sleep",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following commands is used to copy directory structures in and out",
+    "options": {
+      "A": "cp",
+      "B": "cpio",
+      "C": "cp - p",
+      "D": "copy",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of following commands is used for an automatic reminder service?",
+    "options": {
+      "A": "write",
+      "B": "mesg",
+      "C": "calendar",
+      "D": "mail",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command allows you to view your file 24 lines at a time?",
+    "options": {
+      "A": "more",
+      "B": "pg",
+      "C": "cat",
+      "D": "lp",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following special shell variables is used to process number of the current shell?",
+    "options": {
+      "A": "$!",
+      "B": "$$",
+      "C": "$0",
+      "D": "$*",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which option is used with cmp command to give a detailed list of the byte number and the differing bytes in octal for each character that differs in both the files?",
+    "options": {
+      "A": "-l",
+      "B": "-d",
+      "C": "-r",
+      "D": "-b",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used with vi editor scroll half page backward?",
+    "options": {
+      "A": "[Control-d]",
+      "B": "[Control - u]",
+      "C": "[Control-c]",
+      "D": "[Control -P]",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used with vi editor to move cursor forward to first occurrence of character 'ch' in the current line?",
+    "options": {
+      "A": "tch",
+      "B": "fch",
+      "C": "rch",
+      "D": "ech",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following keys is used to delete the character beneath the cursor?",
+    "options": {
+      "A": "x",
+      "B": "X",
+      "C": "dd",
+      "D": "D",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used to assign only read permission to all three categories of the file 'note'?",
+    "options": {
+      "A": "chmod go+r note",
+      "B": "chmod a-rw",
+      "C": "chmod ugo=r note",
+      "D": "chmod u+r,g+r,o-x note",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command will be used with vi editor to append text at end of line?",
+    "options": {
+      "A": "A",
+      "B": "a",
+      "C": "i",
+      "D": "I",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "The first set of the three permissions (rw) pertains to the owner of the file, indicating that the owner has",
+    "options": {
+      "A": "executable permission only",
+      "B": "write and executable permissions",
+      "C": "both     read     and     executable permissions.",
+      "D": "both read and write permissions",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following commands is used to save the output of the who command in a file named user.lst, as well as display it?",
+    "options": {
+      "A": "who | tee user.lst",
+      "B": "who > user.lst",
+      "C": "who >> user.lst",
+      "D": "who < user.lste",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following shell's wildcards are used to match any number of characters including none?",
+    "options": {
+      "A": "[ijk]",
+      "B": "[!ijk]",
+      "C": "?",
+      "D": "*",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "unix"
+  },
+  {
+    "question": "The command used to remove the directory is;",
+    "options": {
+      "A": "rmdir",
+      "B": "rd",
+      "C": "remove",
+      "D": "rdir",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "unix"
+  },
+  {
+    "question": "Which symbol will be used with grep command to match the pattern pat at the end of a line?",
+    "options": {
+      "A": "^pat",
+      "B": "$pat",
+      "C": "pat$",
+      "D": "pat^",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used to display all the lines with the string 'sales' from the file empl.lst?",
+    "options": {
+      "A": "cut sales empl.lst",
+      "B": "/sales > empl.lst",
+      "C": "grep sales empl.lst",
+      "D": "cat | /sales > empl.lst",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following commands is not the vi Input mode command?",
+    "options": {
+      "A": "rch",
+      "B": "R",
+      "C": "S",
+      "D": "j",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following commands is used to remove files?",
+    "options": {
+      "A": "erase",
+      "B": "delete",
+      "C": "rm",
+      "D": "dm",
+      "E": ".  None of the above"
+    },
+    "answer": "C",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used with vi editor to save file and remain in the editing mode?",
+    "options": {
+      "A": ":q",
+      "B": ":w",
+      "C": "q!",
+      "D": ":x",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "You can append to a file instead of overwriting by using the",
+    "options": {
+      "A": "> symbols",
+      "B": ">> symbols",
+      "C": "< symbols",
+      "D": "<< symbols",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "The [line number G] key allows you",
+    "options": {
+      "A": "to   move   cursor   left   by   one position",
+      "B": "to  move  cursor  right  by  one position",
+      "C": "to move cursor down by one line",
+      "D": "to move cursor to the beginning of the line specified by the number",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of the following commands is used to have a two-way communication with any person who is currently logged in?",
+    "options": {
+      "A": "mail",
+      "B": "mesg",
+      "C": "write",
+      "D": "grep",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used with vi editor to move the cursor to the left?",
+    "options": {
+      "A": "i",
+      "B": "j",
+      "C": "k",
+      "D": "h",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "unix"
+  },
+  {
+    "question": "Which of command is used to copy a file?",
+    "options": {
+      "A": "copy",
+      "B": "cp",
+      "C": "cpio",
+      "D": "tar",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "The special shell variable $* is used",
+    "options": {
+      "A": "to exit status of ast command executed.",
+      "B": "to process number of the current shell",
+      "C": "to list the positional parameters",
+      "D": "to  name   the  command   being executed",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "unix"
+  },
+  {
+    "question": "The cat command is used to",
+    "options": {
+      "A": "capture a file",
+      "B": "display a file",
+      "C": "print a file",
+      "D": "copy a file",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "The UNIX file system stores a data in physical blocks of",
+    "options": {
+      "A": "1024 bytes",
+      "B": "2048 bytes",
+      "C": "512 bytes",
+      "D": "256 bytes",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "unix"
+  },
+  {
+    "question": "Which command is used to terminate all processes in your own system except the login shell?",
+    "options": {
+      "A": "kill 1",
+      "B": "kill 0",
+      "C": "cancel all",
+      "D": "cancel 1",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "unix"
+  },
+  {
+    "question": "The part of machine level instruction, which tells the central processor what has to be done, is",
+    "options": {
+      "A": "Operation code",
+      "B": "Address",
+      "C": "Locator",
+      "D": "Flip-Flop",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Which of the following refers to the associative memory?",
+    "options": {
+      "A": "the address of the data is generated by the CPU",
+      "B": "the address of the data is supplied by the users",
+      "C": "there is no need for an address i.e. the data is used as an address",
+      "D": "the data are accessed sequentially",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "To avoid the race condition, the number of processes that may be simultaneously inside their critical section is",
+    "options": {
+      "A": "8",
+      "B": "1",
+      "C": "16",
+      "D": "0",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "A system program that combines the separately compiled modules of a program into a form suitable for execution",
+    "options": {
+      "A": "assembler",
+      "B": "linking loader",
+      "C": "cross compiler",
+      "D": "load and go",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Process is",
+    "options": {
+      "A": "program in High level language kept on disk",
+      "B": "contents of main memory",
+      "C": "a program in execution",
+      "D": "a job in secondary memory",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "The initial value of the semaphore that allows only one of the many processes to enter their critical sections, is",
+    "options": {
+      "A": "8",
+      "B": "1",
+      "C": "16",
+      "D": "0",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "The Register - to - Register (RR) instructions",
+    "options": {
+      "A": "have both their operands in the main store.",
+      "B": "which perform an operation on a register operand and an operand which is located in the main store, generally leaving the result in the register, except in the case of store operation when it is also written into the specified storage location.",
+      "C": "which perform indicated operations on two fast registers of the machine and leave the result in one of the registers.",
+      "D": "all of the above",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "A page fault",
+    "options": {
+      "A": "is an error is a specific page",
+      "B": "occurs when a program accesses a page of memory",
+      "C": "is   an   access   to   a   page   not currently in memory",
+      "D": "is a reference to a page belonging to another program",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "An algorithm is best described as",
+    "options": {
+      "A": "A computer language",
+      "B": "A step by step procedure for solving a problem",
+      "C": "A branch of mathematics",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "The process of transferring data intended for a peripheral device into a disk (or intermediate store) so that it can be transferred to peripheral at a more convenient time or in bulk, is known as",
+    "options": {
+      "A": "multiprogramming",
+      "B": "spooling",
+      "C": "caching",
+      "D": "virtual programming",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Block caches or buffer caches are used",
+    "options": {
+      "A": "to improve disk performance",
+      "B": "to handle interrupts",
+      "C": "to increase the capacity of the main memory",
+      "D": "to speed up main memory read operation",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Which of the following statements is false?",
+    "options": {
+      "A": "a small page size causes large page tables",
+      "B": "internal fragmentation is increased with small pages",
+      "C": "a large page size causes instructions and data that will not be referenced brought into primary storage",
+      "D": "I/O transfers are more efficient with large pages",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "The action of parsing the source program into the proper syntactic classes is known as",
+    "options": {
+      "A": "syntax analysis",
+      "B": "lexical analysis",
+      "C": "interpretation analysis",
+      "D": "general syntax analysis",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Which, of the following is not true about the description of a decision table?",
+    "options": {
+      "A": "A   decision   table   is   easy   to modify",
+      "B": "A   decision   table   is   directly understood by the computer",
+      "C": "A   decision   table   is   easy   to understand",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Trojan-Horse programs",
+    "options": {
+      "A": "are   legitimate   programs   that allow unauthorized access",
+      "B": "do not usually work",
+      "C": "are hidden programs that do not show up on the system",
+      "D": "usually        are       immediately discovered",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "When did IBM release the first version of disk operating system DOS version 1.0?",
+    "options": {
+      "A": "1981",
+      "B": "1982",
+      "C": "1983",
+      "D": "1984",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Which of the following is false about disk when compared to main memory?",
+    "options": {
+      "A": "non-volatile",
+      "B": "longer storage capacity",
+      "C": "lower price per bit",
+      "D": "faster",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Producer consumer problem can be solved using",
+    "options": {
+      "A": "semaphores",
+      "B": "event counters",
+      "C": "monitors",
+      "D": "all of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Most of the microcomputer's operating systems like Apple DOS, MS DOS and PC DOS etc. are called disk operating systems because",
+    "options": {
+      "A": "they are memory resident",
+      "B": "they are initially stored on disk",
+      "C": "they are available on magnetic tapes",
+      "D": "they are partly in primary memory and partly on disk",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "The CPU, after receiving an interrupt from an I/O device",
+    "options": {
+      "A": "halts for a predetermined time",
+      "B": "hands over control of address bus and data bus to the interrupting device",
+      "C": "branches off to the interrupt service routine immediately",
+      "D": "branches off to the interrupt service routine after completion of the current instruction",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Seeks analysis",
+    "options": {
+      "A": "is used for analyzing paging problems",
+      "B": "is used for analyzing device busy problems",
+      "C": "is used for analyzing control-unit busy problems",
+      "D": "is only shown on real-time displays",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Which is a permanent database in the general model of compiler?",
+    "options": {
+      "A": "Literal Table",
+      "B": "Identifier Table",
+      "C": "Terminal Table",
+      "D": "Source code",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "What is the name of the technique in which the operating system of a computer executes several programs concurrently by switching back and forth between them?",
+    "options": {
+      "A": "Partitioning",
+      "B": "Multitasking",
+      "C": "Windowing",
+      "D": "Paging",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Operating system",
+    "options": {
+      "A": "links a program with the subroutines it references",
+      "B": "provides a layered, user-friendly interface",
+      "C": "enables the programmer to draw a flowchart",
+      "D": "all of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Software that measures, monitors, analyzes, and controls real-world events is called:",
+    "options": {
+      "A": "system software",
+      "B": "real-time software",
+      "C": "scientific software",
+      "D": "business software",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "The details of all external symbols and relocation formation (relocation list or map) is provided to linker by",
+    "options": {
+      "A": "Macro processor",
+      "B": "Translator",
+      "C": "Loader",
+      "D": "Editor",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "The macro processor must perform",
+    "options": {
+      "A": "recognize macro definitions and macro calls",
+      "B": "save the macro definitions",
+      "C": "expand macros calls and substitute arguments",
+      "D": "all of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "A development strategy whereby the executive control modules of a system are coded and tested first, is known as",
+    "options": {
+      "A": "Bottom-up development",
+      "B": "Top-down development",
+      "C": "Left-Right development",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Which of the following is helpful in evaluating applications software what will best suit your needs?",
+    "options": {
+      "A": "recommendations by other users",
+      "B": "computer magazines",
+      "C": "objective software reviews",
+      "D": "all of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "What problem is solved by Dijkstra's banker's algorithm?",
+    "options": {
+      "A": "mutual exclusion",
+      "B": "deadlock recovery",
+      "C": "deadlock avoidance",
+      "D": "cache coherence",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "The dispatcher",
+    "options": {
+      "A": "actually schedules the tasks into the processor",
+      "B": "puts tasks in I/O wait",
+      "C": "is always small and simple",
+      "D": "never changes task priorities",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "System programs such as Compilers are designed so that they are",
+    "options": {
+      "A": "reenterable",
+      "B": "non reusable",
+      "C": "serially usable",
+      "D": "recursive",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "IBM released its first PC in 1981. Can you name the operating system which was most popular at that time?",
+    "options": {
+      "A": "MS-DOS",
+      "B": "PC-DOS",
+      "C": "OS/360",
+      "D": "CP/M",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "If the number of bits in a virtual address of a program is 16 and the page size is 0.5 K bytes, the number of pages in the virtual address space is",
+    "options": {
+      "A": "16",
+      "B": "32",
+      "C": "64",
+      "D": "128",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Which table is a permanent database that has an entry for each terminal symbol.",
+    "options": {
+      "A": "Terminal table",
+      "B": "Literal table",
+      "C": "Identifier table",
+      "D": "Reductions",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "The function(s) of the Syntax phase is(are)",
+    "options": {
+      "A": "to recognize the major constructs of the language and to call the appropriate action routines that will generate the intermediate form or matrix for these constructs.",
+      "B": "to build a literal table and an identifier table",
+      "C": "to build a uniform symbol table",
+      "D": "to parse the source program into the basic elements or tokens of the language.",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Swapping",
+    "options": {
+      "A": "works best with many small partitions",
+      "B": "allows many programs to use memory simultaneously",
+      "C": "allows each program in turn to use the memory",
+      "D": "does not work with overlaying",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "A disk scheduling algorithm in an operating system causes the disk arm to move back and forth across the disk surface in order to service all requests in its path. This is a",
+    "options": {
+      "A": "First come first served",
+      "B": "Shortest Seek Time First (SSTE)",
+      "C": "Scan",
+      "D": "FIFO",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "A translator is best described as",
+    "options": {
+      "A": "an application software",
+      "B": "a system software",
+      "C": "a hardware component",
+      "D": "all of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Data encryption",
+    "options": {
+      "A": "is mostly used by public networks",
+      "B": "is mostly used by financial networks",
+      "C": "cannot be used by private installations",
+      "D": "is not necessary, since data cannot be intercepted",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "In which of the storage placement strategies a program is placed in the largest available hole in the main memory?",
+    "options": {
+      "A": "best fit",
+      "B": "first fit",
+      "C": "worst fit",
+      "D": "buddy",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Which of the following is a block device",
+    "options": {
+      "A": "mouse",
+      "B": "printer",
+      "C": "terminals",
+      "D": "disk",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "The problem of thrashing is affected significantly by:",
+    "options": {
+      "A": "program structure",
+      "B": "program size",
+      "C": "primary-storage size",
+      "D": "all of the above",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Which of the following software types is used to simplify using systems software?",
+    "options": {
+      "A": "spreadsheet",
+      "B": "operating environment",
+      "C": "timesharing",
+      "D": "multitasking",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Advantage(s) of using assembly language rather than machine language is (are):",
+    "options": {
+      "A": "It is mnemonic and easy to read.",
+      "B": "Addresses any symbolic, not absolute",
+      "C": "Introduction of data to program is easier",
+      "D": "all of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Which of the following is not true about the memory management?",
+    "options": {
+      "A": "virtual memory is used only in multi-user systems",
+      "B": "segmentation suffers from external fragmentation",
+      "C": "paging   suffers   from   internal fragmentation",
+      "D": "segmented memory can be paged",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Job Control Language (JCL) statements are used to",
+    "options": {
+      "A": "Read the input from the slow-speed card reader to the high-speed magnetic disk",
+      "B": "Specify, to the operating system, the beginning and end of a job in a batch",
+      "C": "Allocate the CPU to a job",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Paging",
+    "options": {
+      "A": "is a method of memory allocation by which the program is subdivided into equal portions, or pages and core is subdivided into equal portions or blocks.",
+      "B": "consists of those addresses that may be generated by a processor during execution of a computation.",
+      "C": "is a method of allocating processor time.",
+      "D": "allows multiple programs to reside in separate areas of core at the time.",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Which of the following is not true about documentation?",
+    "options": {
+      "A": "Documentation, of a system, should be as clear and direct as possible",
+      "B": "Documentation increases the maintenance time and cost",
+      "C": "Documentation gives better understanding of the problem",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "The system/370 assembler language",
+    "options": {
+      "A": "allows the programmer to write base registers and displacements explicitly in the source program.",
+      "B": "is used to remember which of the general-purpose registers are currently available as base registers, and what base addresses they contain.",
+      "C": "allows multiple programs to reside in separate areas of core at the same time.",
+      "D": "is a term that refers to the control programs of an operating system.",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Scheduling is",
+    "options": {
+      "A": "allowing    jobs    to    use    the processor",
+      "B": "unrelated      to      performance consideration",
+      "C": "not   required   in   uniprocessor systems",
+      "D": "the   same   regard-less   of   the purpose of the system",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "What scheduling algorithm allows processes that are logical runnable to be temporarily suspended?",
+    "options": {
+      "A": "preemptive scheduling",
+      "B": "non-preemptive scheduling",
+      "C": "FIFO",
+      "D": "FCFS",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "In an absolute loading scheme, which loader function is accomplished by loader",
+    "options": {
+      "A": "Reallocation",
+      "B": "Allocation",
+      "C": "Linking",
+      "D": "Loading",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "The computational technique used to compute the disk storage address of individual records is called:",
+    "options": {
+      "A": "bubble memory",
+      "B": "key fielding",
+      "C": "dynamic reallocation",
+      "D": "hashing",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "For how many processes which are sharing common data, the Dekker's algorithm implements mutual exclusion?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "The file structure that redefines its first record at a base of zero uses the term:",
+    "options": {
+      "A": "relative organization",
+      "B": "key fielding",
+      "C": "dynamic reallocation",
+      "D": "hashing",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "What is the name given to all the programs inside the computer with makes it usable?",
+    "options": {
+      "A": "Application software",
+      "B": "System software",
+      "C": "Firm ware",
+      "D": "Shareware",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Semaphores",
+    "options": {
+      "A": "synchronize critical resources to prevent deadlock",
+      "B": "synchronize critical resources to prevent contention",
+      "C": "are used to do I/O",
+      "D": "are used for memory management",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "The advantage(s) of incorporating the macro processor into pass 1 is(are):",
+    "options": {
+      "A": "many functions do not have to be implemented twice.",
+      "B": "Functions are combined and it is not necessary to create intermediate files as output from the macros processor and input to the assembler.",
+      "C": "more flexibility is available to the programmer in that he may use all the features of the assembler in conjunction with macros.",
+      "D": "all of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "In analyzing the compilation of PL/I program, the description \"creation of more optimal matrix\" is associated with",
+    "options": {
+      "A": "Assembly and output",
+      "B": "Code generation",
+      "C": "Syntax analysis",
+      "D": "Machine independent optimization",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "In memory systems, boundary registers",
+    "options": {
+      "A": "are used for temporary program variable storage",
+      "B": "are only necessary with fixed partitions",
+      "C": "track page boundaries",
+      "D": "track the beginning and ending of programs",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Which of the following is true for machine language.",
+    "options": {
+      "A": "Repeated execution of program segments",
+      "B": "Depicting flow of data in a system",
+      "C": "A sequence of instructions which, when followed properly, solves a problem",
+      "D": "the language which communicates with the computer using only the binary digits 1 and 0.",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Which of the following is not applications software?",
+    "options": {
+      "A": "Word processing",
+      "B": "Spreadsheet",
+      "C": "UNIX",
+      "D": "Desktop publishing",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Scissoring enables",
+    "options": {
+      "A": "a part of data to be displayed",
+      "B": "entire data to be displayed",
+      "C": "full data display on full area of screen",
+      "D": "no data to be displayed",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "A relocate program form is one which",
+    "options": {
+      "A": "cannot be made to execute in any area of storage other than the one designated for it at the time of its coding or translation.",
+      "B": "consists of a program and relevant information for its relocation.",
+      "C": "can itself performs the relocation of its address-sensitive portions.",
+      "D": "all of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "If you want to execute more than one program at a time, the systems software you are using must be capable of:",
+    "options": {
+      "A": "word processing",
+      "B": "virtual memory",
+      "C": "compiling",
+      "D": "multitasking",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "In analyzing the compilation of PL/I program, the description \"resolving symbolic address (labels) and generating machine language\" is associated with",
+    "options": {
+      "A": "Assembly and output",
+      "B": "Code generation",
+      "C": "Storage assignment",
+      "D": "Syntax analysis",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Round-robin scheduling",
+    "options": {
+      "A": "allows interactive tasks quicker access to the processor",
+      "B": "is quite complex to implement",
+      "C": "gives each task the same chance at the processor",
+      "D": "allows processor-bound tasks more time in the processor",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "What is the name of the system which deals with the running of the actual computer and not with the programming problems?",
+    "options": {
+      "A": "Operating system",
+      "B": "Systems program",
+      "C": "Object program",
+      "D": "Source program",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "What is the initial value of the semaphore to allow only one of the many processes to enter their critical section?",
+    "options": {
+      "A": "8",
+      "B": "1",
+      "C": "16",
+      "D": "0",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Four necessary conditions for deadlock to exist are: mutual exclusion, no-preemption, circular wait and",
+    "options": {
+      "A": "hold and wait",
+      "B": "deadlock avoidance",
+      "C": "race around condition",
+      "D": "buffer overflow",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "If you do not know which version of MS-DOS you are working with, which command will you use after having booted your operating system?",
+    "options": {
+      "A": "FORMAT command",
+      "B": "DIR command",
+      "C": "VER command",
+      "D": "DISK command",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "A partitioned data set is most used for",
+    "options": {
+      "A": "a program or source library",
+      "B": "storing program data",
+      "C": "storing backup information",
+      "D": "storing ISAM files",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "Page-map table is",
+    "options": {
+      "A": "A data file",
+      "B": "A directory",
+      "C": "Used for address translation",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "The main function of the dispatcher (the portion of the process scheduler) is",
+    "options": {
+      "A": "swapping   a process to the disk",
+      "B": "assigning ready process to the CPU",
+      "C": "suspending some of the processes when the CPU load is high",
+      "D": "bring processes from the disk to the main memory",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "operating-systems-concepts"
+  },
+  {
+    "question": "How many digits of the DNIC (Data Network Identification Code) identify the country?",
+    "options": {
+      "A": "first three",
+      "B": "first four",
+      "C": "first five",
+      "D": "first six",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "A station in a network forwards incoming packets by placing them on its shortest output queue. What routing algorithm is being used?",
+    "options": {
+      "A": "hot potato routing",
+      "B": "flooding",
+      "C": "static routing",
+      "D": "delta routing",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "The probability that a single bit will be in error on a typical public telephone line using 4800 bps modem is 10 to the power -3. If no error detection mechanism is used, the residual error rate for a communication line using 9-bit frames is approximately equal to",
+    "options": {
+      "A": "0.003",
+      "B": "0.009",
+      "C": "0.991",
+      "D": "0.999",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "Frames from one LAN can be transmitted to another LAN via the device",
+    "options": {
+      "A": "Router",
+      "B": "Bridge",
+      "C": "Repeater",
+      "D": "Modem"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following condition is used to transmit two packets over a medium at the same time?",
+    "options": {
+      "A": "Contention",
+      "B": "Collision",
+      "C": "Synchronous",
+      "D": "Asynchronous",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following refers to the terms \"residual error rate\"?",
+    "options": {
+      "A": "the number of bit errors per twenty four hours of continuous operation on an asynchronous line",
+      "B": "The probability that one or more errors will be undetected when an error detection scheme is used",
+      "C": "the probability that one or more errors will be detected when an error detection mechanism is used",
+      "D": "signal to noise ratio divided by the ratio of energy per bit to noise per hertz",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following summation operations is performed on the bits to check an error-detecting code?",
+    "options": {
+      "A": "Codec",
+      "B": "Coder-decoder",
+      "C": "Checksum",
+      "D": "Attenuation"
+    },
+    "answer": "C",
+    "topic": "networking"
+  },
+  {
+    "question": "The research and development department at your office has been experimenting with different technologies to help improve the performance of the network. One group has been examining the use of a broadband network versus a based band network. Select the correct statement about broadband and baseband.",
+    "options": {
+      "A": "Broadband networks carry several channels on a single cable, whereas in a baseband network several cables carry one channel",
+      "B": "Baseband networks carry a single channel on a single cable, whereas broadband networks carry several channels on a single cable",
+      "C": "Baseband refers to local area networks, and broadband refers to wide area networks.",
+      "D": "Baseband operates at a standard bit rate, whereas broadband may operate at different rates as needed",
+      "E": "Broadband and baseband refer to the different frequencies at which infrared operates then transmitting signals in certain conditions"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "An error-detecting code inserted as a field  in  a  block  of data  to  be transmitted is known as",
+    "options": {
+      "A": "Frame check sequence",
+      "B": "Error detecting code",
+      "C": "Checksum",
+      "D": "flow control",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "The cheapest modems can transmit",
+    "options": {
+      "A": "300 bits per second",
+      "B": "1,200 bits per second",
+      "C": "2,400 bits per second",
+      "D": "4,800 bits per second",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "Computers cannot communicate with each other directly over telephone lines because they use digital pulses whereas telephone lines use analog sound frequencies. What is the name of the device which permits digital to analog conversion at the start of a long distance transmission?",
+    "options": {
+      "A": "Interface",
+      "B": "Modem",
+      "C": "Attenuation",
+      "D": "Teleprocessor",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "What is the usual number of bits transmitted simultaneously in parallel data transmission used by microcomputers?",
+    "options": {
+      "A": "16",
+      "B": "9",
+      "C": "8",
+      "D": "4",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "The receive equalizer reduces delay distortions using a",
+    "options": {
+      "A": "tapped delay lines",
+      "B": "gearshift",
+      "C": "descrambler",
+      "D": "difference engine",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "Four routers have to be interconnected in a point-to-point Network. Each pair of root us may connected by a high-speed line, a medium speed line or a low speed line. Find the total number of topologies.",
+    "options": {
+      "A": "12",
+      "B": "81",
+      "C": "48",
+      "D": "729"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "A network consists of eight NT servers. You are planning to move servers to different segments of your network, what utility should be used at each server to determine which server generates the most traffic?",
+    "options": {
+      "A": "NBTSTAT",
+      "B": "NETSTAT.EXE",
+      "C": "Performance Monitor",
+      "D": "Network Monitor",
+      "E": "ARP.EXE"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "Sending a file from your personal computer's primary memory or disk to another computer is called",
+    "options": {
+      "A": "uploading",
+      "B": "downloading",
+      "C": "logging on",
+      "D": "hang on",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "What is the name of the software package that allows people to send electronic mail along a network of computers and workstations?",
+    "options": {
+      "A": "Memory resident package",
+      "B": "Project management package",
+      "C": "Data communication package",
+      "D": "Electronic mail package",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "networking"
+  },
+  {
+    "question": "The communication mode that supports two-way traffic but only one direction at a time is",
+    "options": {
+      "A": "simplex",
+      "B": "duplex",
+      "C": "half duplex",
+      "D": "multiplex",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "networking"
+  },
+  {
+    "question": "HMP (Host Monitoring Protocol) is:",
+    "options": {
+      "A": "a TCP/IP protocol used to dynamically bind a high level IP Address to a low-level physical hardware address",
+      "B": "a TCP/IP high level protocol for transferring files from one machine to another.",
+      "C": "a protocol used to monitor computers",
+      "D": "a protocol that handles error and control messages",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following is a voiceband channel?",
+    "options": {
+      "A": "Telephone line",
+      "B": "Telegraph line",
+      "C": "Coaxial cable",
+      "D": "Microwave systems",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "A 8-Mbps token ring has a token holding timer value of 10 msec. What is the longest frame (assume header bits are negligible) that can be sent on this ring?",
+    "options": {
+      "A": "8000 B frame",
+      "B": "80,000 B frame",
+      "C": "8 x 105 bit frame",
+      "D": "10,000 B frame"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "Data are sent over pin _____ of the EIA-232 interface.",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "All of the above"
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "To connect a computer with a device in the same room, you might be likely to use",
+    "options": {
+      "A": "a coaxial cable",
+      "B": "a dedicated line",
+      "C": "a ground station",
+      "D": "All of the above"
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "Demodulation is a process of",
+    "options": {
+      "A": "converting analog to digital signals",
+      "B": "converting digital to analog signals",
+      "C": "multiplexing various signals into one high speed line signals",
+      "D": "performing data description."
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "Internet-like networks between a company and its business partners. Select the best fit for answer:",
+    "options": {
+      "A": "Bandwidth alternatives",
+      "B": "Switching alternating",
+      "C": "Inter organizational networks",
+      "D": "Extranets"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "An example of an analog communication method is",
+    "options": {
+      "A": "laser beam",
+      "B": "microwave",
+      "C": "voice grade telephone line",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following layer protocols are responsible for user and the application programme support such as passwords, resource sharing, file transfer and network management?",
+    "options": {
+      "A": "Layer 7 protocols",
+      "B": "Layer 6 protocols",
+      "C": "Layer 5 protocols",
+      "D": "Layer 4 protocols",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "What frequency range is used for FM radio transmission?",
+    "options": {
+      "A": "Very Low Frequency : 3 kHz to 30. kHz",
+      "B": "Low Frequency : 30 kHz to 300 kHz",
+      "C": "High Frequency : 3 MHz to 30 MHz",
+      "D": "Very High Frequency : 30 MHz to 300 MHz",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "Transmission of computerised data from one location to another is called",
+    "options": {
+      "A": "data transfer",
+      "B": "data flow",
+      "C": "data communication",
+      "D": "data management",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "networking"
+  },
+  {
+    "question": "Compared to analog signals, digital signals",
+    "options": {
+      "A": "allow faster transmission",
+      "B": "are more accurate",
+      "C": "both (a) and (b)",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "networking"
+  },
+  {
+    "question": "FDDI is a",
+    "options": {
+      "A": "ring network",
+      "B": "star network",
+      "C": "mesh network",
+      "D": "bus based network",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "An anticipated result from multiprogramming operations is:",
+    "options": {
+      "A": "reduced computer idle time",
+      "B": "the handling of more jobs",
+      "C": "better scheduling of work",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "A central computer surrounded by one or more satellite computers is called a",
+    "options": {
+      "A": "bus network",
+      "B": "ring network",
+      "C": "star network",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "networking"
+  },
+  {
+    "question": "If delays are recorded as 10 bit numbers in a 50 router network, and delay vectors are exchanged twice a second, how much bandwidth per fill duplex line is occupied by the distributed routing algorithm?",
+    "options": {
+      "A": "500 bps",
+      "B": "1500 bps",
+      "C": "5 bps",
+      "D": "1000 bps"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "HOSTS file entries are limited to how many characters?",
+    "options": {
+      "A": "8",
+      "B": "255",
+      "C": "500",
+      "D": "Unlimited",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "Demodulation is the process of",
+    "options": {
+      "A": "converting digital signals to analog signals",
+      "B": "converting analog signals to digital signals",
+      "C": "combining many low speed channels  into  one  high  speed channel",
+      "D": "dividing the high-speed signals into frequency bands",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following statement is incorrect?",
+    "options": {
+      "A": "The Addresses Resolution Protocol, ARP, allows a host to find the physical address of a target host on the same physical network, given only the target IP address.",
+      "B": "The sender's IP - to- physical address binding is included in every ARP broadcast; receivers update the IP-to-Physical address binding information in their cache before processing an ARP packet.",
+      "C": "ARP is a low-level protocol that hides the underlying network physical addressing, permitting us to assign IP-addresses of our choice to every machine.",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "You are working with a network that has the network ID 192.168.10.0. What subnet should you use that supports up to 25 hosts and a maximum number of subnets?",
+    "options": {
+      "A": "255.255.255.192",
+      "B": "255.255.255.224",
+      "C": "255.255.255.240",
+      "D": "255.255.255.248",
+      "E": "255.255.255.252"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following best illustrates the default subnet mask for a class A,B, and C Network?",
+    "options": {
+      "A": "0.0.0.0, 0.0.0.1, 0.0.1.1",
+      "B": "255.255.255.0, 255.255.0.0, 255.0.0.0",
+      "C": "255.0.0.0, 255.255.0.0, 255.255.255.0",
+      "D": "255.255.0.0, 255.255.255.0, 255.255.255.255",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "networking"
+  },
+  {
+    "question": "Modulation is the process of",
+    "options": {
+      "A": "converting analog signals to digital signals",
+      "B": "converting digital signals to analog signals",
+      "C": "Multiplexing various signals into high speed line signals",
+      "D": "performing data encryption."
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "Modem is used in data transmission. When was it invented and in which country?",
+    "options": {
+      "A": "1963, USA",
+      "B": "1965, Germany",
+      "C": "1950, USA",
+      "D": "1950, Japan",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following technique is used for Time-To-Line (TTL)?",
+    "options": {
+      "A": "a technique used in best-effort delivery system to avoid endlessly looping packets.",
+      "B": "a technique used by protocols in which a lower level protocol accepts a message from a higher level protocol and places it in the data portion of the low level frame",
+      "C": "One of the pieces that results when an IP gateway divides an IP datagram into smaller pieces for transmission across a network that cannot handle the original datagram size.",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "Communication network is",
+    "options": {
+      "A": "one or more conductors that serve as a common connection for a related group of devices",
+      "B": "a continuous frequency capable of being modulated or impressed with a second signal",
+      "C": "the condition with two or more stations attempt to use the same channel at the same time",
+      "D": "a collection of interconnected functional units that provides a data communications service among stations attached to the network",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following is an advantage to using fiber optics data transmission?",
+    "options": {
+      "A": "resistance to data theft",
+      "B": "fast data transmission rate",
+      "C": "low noise level",
+      "D": "few transmission errors",
+      "E": "All of the above"
+    },
+    "answer": "E",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following statement is incorrect?",
+    "options": {
+      "A": "if a host moves from one network to another, its IP address must change",
+      "B": "routing uses the network portion of the IP address, the path taken by packets travelling to a host with multiple IP addresses depends on the address used.",
+      "C": "IP addresses encode both a network and a host on that network, they do not specify an individual machine, but a connection to a network.",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "Bandlimited signal is",
+    "options": {
+      "A": "transmission of signals without modulation",
+      "B": "a signal all of whose energy is contained within a finite frequency range",
+      "C": "simultaneous transmission of data to a number of stations",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "Computers in a LAN can be interconnected by radio and infrared technologies.",
+    "options": {
+      "A": "Wireless LANs",
+      "B": "Network Topologies",
+      "C": "Multiplexer",
+      "D": "Modem"
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "You have a network ID of 134.57.0.0 and you need to divide it into multiple subnets in which at least 600 host IDs for each subnet are available. You desire to have the largest amount of subnets available. Which subnet mask should you assign?",
+    "options": {
+      "A": "255.255.224.0",
+      "B": "255.255.240.0",
+      "C": "255.255.248.0",
+      "D": "255.255.255.0",
+      "E": "255.255.255.255"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "How many digits of the Network User Address are known as the DNIC (Data Network Identification Code)?",
+    "options": {
+      "A": "first three",
+      "B": "first four",
+      "C": "first five",
+      "D": "first seven",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following is the address of the router?",
+    "options": {
+      "A": "The IP address",
+      "B": "The TCP address",
+      "C": "The subnet mask",
+      "D": "The default gateway",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "Thorough planning must take place when setting up an 802.3 network. A maximum number of segments can separate any two nodes on the network. What is the maximum number of segments allowed between two nodes?",
+    "options": {
+      "A": "Five",
+      "B": "Two",
+      "C": "Four",
+      "D": "Six",
+      "E": "Three"
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "A devices that links two homogeneous packet-broadcast local networks, is",
+    "options": {
+      "A": "hub",
+      "B": "bridge",
+      "C": "repeater",
+      "D": "gateway",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "Identify the odd term amongst the following group:",
+    "options": {
+      "A": "Coaxial cable",
+      "B": "Optical fibre",
+      "C": "Twisted pair wire",
+      "D": "Microwaves",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following divides the high speed signal into frequency bands?",
+    "options": {
+      "A": "t-switch",
+      "B": "modem",
+      "C": "frequency-division multiplexer",
+      "D": "time-division multiplexer",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "networking"
+  },
+  {
+    "question": "What is the first octet range for a class C IP address?",
+    "options": {
+      "A": "192 - 255",
+      "B": "192 - 223",
+      "C": "192 - 226",
+      "D": "128 - 191",
+      "E": "1 - 126"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "Which utility is useful for finding the local host name?",
+    "options": {
+      "A": "NBTSTAT",
+      "B": "Netstat",
+      "C": "PING",
+      "D": "Hostname",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following conditions is used to transmit two packets over a medium at the same time?",
+    "options": {
+      "A": "Contention",
+      "B": "Collision",
+      "C": "Synchronous",
+      "D": "Asynchronous"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "The slowest transmission speeds are those of",
+    "options": {
+      "A": "twisted-pair wire",
+      "B": "coaxial cable",
+      "C": "fiber-optic cable",
+      "D": "microwaves",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "Distributed Queue Dual Bus is a standard for",
+    "options": {
+      "A": "LAN",
+      "B": "MAN",
+      "C": "WAN",
+      "D": "Wireless LAN.",
+      "E": "LAN and MAN"
+    },
+    "answer": "E",
+    "topic": "networking"
+  },
+  {
+    "question": "A teleprocessing system may consist of",
+    "options": {
+      "A": "user systems",
+      "B": "communications systems",
+      "C": "computer center systems",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "If the ASCII character G is sent and the character D is received, what type of error is this?",
+    "options": {
+      "A": "single-bit",
+      "B": "multiple-bit",
+      "C": "burst",
+      "D": "recoverable"
+    },
+    "answer": "C",
+    "topic": "networking"
+  },
+  {
+    "question": "Which layer of OSI determines the interface of the system with the user?",
+    "options": {
+      "A": "Network",
+      "B": "Application",
+      "C": "Data-link",
+      "D": "Session",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "The transfer of data from a CPU to peripheral devices of a computer is achieved through",
+    "options": {
+      "A": "modems",
+      "B": "computer ports",
+      "C": "interfaces",
+      "D": "buffer memory",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "What is the number of separate protocol layers at the serial interface gateway specified by the X.25 standard?",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "6",
+      "D": "3",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "Many data communication networks have been established which provide a wealth of on-demand information services to people at home. What is the name of the system which provides an interactive, graphics-rich service that permits user to select what they want?",
+    "options": {
+      "A": "Teletex system",
+      "B": "Fax system",
+      "C": "Videotex system",
+      "D": "Microwave system",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following statements is correct?",
+    "options": {
+      "A": "Terminal section of a synchronous modem contains the scrambler",
+      "B": "Receiver section of a synchronous modem contains the scrambler",
+      "C": "Transmission section of a synchronous modem contains the scrambler",
+      "D": "Control section of a synchronous modem contains the scrambler",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following characteristic(s) is/are suited to the PSS applications?",
+    "options": {
+      "A": "bursty traffic and low communications intensity",
+      "B": "widely dispersed terminals and access to international packets switched services",
+      "C": "Multiple remote host or applications accessed by a single local access circuit terminal and circuit",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "Because the configuration infor-mation for a DHCP client is received dynamically, you must use which utility to read the current configuration to verify the settings?",
+    "options": {
+      "A": "PING",
+      "B": "TRACERT",
+      "C": "ARP",
+      "D": "IPCONFIG",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following is separated by a subnet mask?",
+    "options": {
+      "A": "DHCP scopes",
+      "B": "Network ID and host ID",
+      "C": "Domains",
+      "D": "Subnets"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "The signal to noise ratio for a voice grade line is 30.1 dB (decibels) or a power ratio of 1023:1. The maximum achievable data rate on this line whose spectrum ranges from 300 Hz to 4300 Hz is",
+    "options": {
+      "A": "6200 bps",
+      "B": "9600 bps",
+      "C": "34000 bps",
+      "D": "31000 bps",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "networking"
+  },
+  {
+    "question": "TCP is:",
+    "options": {
+      "A": "Operates at the Data Link layer",
+      "B": "Connection orientated and unreliable",
+      "C": "Connection orientated and reliable",
+      "D": "Connectionless and unreliable"
+    },
+    "answer": "C",
+    "topic": "networking"
+  },
+  {
+    "question": "An encyclopedic database",
+    "options": {
+      "A": "is an information utility that specializes in storing and searching information",
+      "B": "is generally free",
+      "C": "is easy for beginners to use",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "networking"
+  },
+  {
+    "question": "Which of the following statements is correct?",
+    "options": {
+      "A": "Protocol converters are the same as multiplexers",
+      "B": "Protocol converters are the same as TDMs",
+      "C": "Protocol converters are usually not operated in pairs.",
+      "D": "Protocol converters are usually operated in",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "networking"
+  },
+  {
+    "question": "The dialogue techniques for terminal use do not include",
+    "options": {
+      "A": "questions and answers",
+      "B": "open-ended questions",
+      "C": "form fillings",
+      "D": "menu display",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "You have a network ID of 192.168.10.0 and require at least 25 host IDs for each subnet, with the largest amount of subnets available. Which subnet mask should you assign?",
+    "options": {
+      "A": "255.255.255.192",
+      "B": "255.255.255.224",
+      "C": "255.255.255.240",
+      "D": "255.255.255.248",
+      "E": "255.255.255.255"
+    },
+    "answer": "B",
+    "topic": "networking"
+  },
+  {
+    "question": "A report generator is used to",
+    "options": {
+      "A": "update files",
+      "B": "print files on paper",
+      "C": "data entry",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Which of the following is not a logical data-base structure?",
+    "options": {
+      "A": "tree",
+      "B": "relational",
+      "C": "network",
+      "D": "chain",
+      "E": "All of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Which of the following is a database administrator's function?",
+    "options": {
+      "A": "database design",
+      "B": "backing up the database",
+      "C": "performance monitoring",
+      "D": "user coordination",
+      "E": "All of the above"
+    },
+    "answer": "E",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Primitive operations common to all record management systems include",
+    "options": {
+      "A": "Print",
+      "B": "Sort",
+      "C": "Look-up",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Each of data files has a _____ that describe the way the data is stored in the file.",
+    "options": {
+      "A": "File structure",
+      "B": "Records",
+      "C": "Fields",
+      "D": "Database",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Data security threats include",
+    "options": {
+      "A": "hardware failure",
+      "B": "privacy invasion",
+      "C": "fraudulent manipulation of data",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  },
+  {
+    "question": "An operation that will increase the length of a list is",
+    "options": {
+      "A": "Insert",
+      "B": "Look-up",
+      "C": "Modify",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "In SQL, which command is used to add a column/integrity constraint to a table",
+    "options": {
+      "A": "ADD COLUMN",
+      "B": "INSERT COLUMN",
+      "C": "MODIFY TABLE",
+      "D": "ALTER TABLE",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "In SQL, which command(s) is(are) used to enable/disable a database trigger?",
+    "options": {
+      "A": "ALTER TRIGGER",
+      "B": "ALTER DATABASE",
+      "C": "ALTER TABLE",
+      "D": "MODIFY TRIGGER",
+      "E": "All of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "In a relational schema, each tuple is divided into fields called",
+    "options": {
+      "A": "Relations",
+      "B": "Domains",
+      "C": "Queries",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  },
+  {
+    "question": "In SQL, which command is used to changes data in a table?",
+    "options": {
+      "A": "UPDATE",
+      "B": "INSERT",
+      "C": "BROWSE",
+      "D": "APPEND",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "What name is given to the collection of facts, items of information or data which are related in some way?",
+    "options": {
+      "A": "Database",
+      "B": "Directory information",
+      "C": "Information tree",
+      "D": "Information provider",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "In a large DBMS",
+    "options": {
+      "A": "each user can \"see\" only a small part of the entire database",
+      "B": "each user can access every sub¬schema",
+      "C": "each subschema contains every field in the logical schema",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Which of the following command(s) is(are) used to recompile a stored procedure in SQL?",
+    "options": {
+      "A": "COMPILE PROCEDURE",
+      "B": "ALTER PROCEDURE",
+      "C": "MODIFY PROCEDURE id) All of the above",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Internal auditors should review data system design before they are",
+    "options": {
+      "A": "developed",
+      "B": "implemented",
+      "C": "modified",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A _____ means that one record in a particular record type may be related to more than one record of another record type.",
+    "options": {
+      "A": "One-to-one relationship",
+      "B": "One-to-many relationship",
+      "C": "Many-to-one relationship",
+      "D": "Many-to many relationship",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Which command(s) is(are) used to redefine a column of the table in SQL ?",
+    "options": {
+      "A": "ALTER TABLE",
+      "B": "DEFINE TABLE",
+      "C": "MODIFY TABLE",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Which command(s) is(are) used to enable/disable/drop an integrity constraint in SQL?",
+    "options": {
+      "A": "DEFINE TABLE",
+      "B": "MODIFY TABLE",
+      "C": "ALTER TABLE",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "database-systems"
+  },
+  {
+    "question": "In SQL, the ALTER TABLESPACE command is used",
+    "options": {
+      "A": "to add/rename data files",
+      "B": "to change storage characteristics",
+      "C": "to take a tablespace online/offline",
+      "D": "to begin/end a backup",
+      "E": "All of the above"
+    },
+    "answer": "E",
+    "topic": "database-systems"
+  },
+  {
+    "question": "The language used in application programs to request data from the DBMS is referred to as the",
+    "options": {
+      "A": "DML",
+      "B": "DDL",
+      "C": "query language",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A database management system might consist of application programs and a software package called",
+    "options": {
+      "A": "FORTRAN",
+      "B": "AUTOFLOW",
+      "C": "BPL",
+      "D": "TOTAL",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "database-systems"
+  },
+  {
+    "question": "An audit trail",
+    "options": {
+      "A": "is used to make back-up copies",
+      "B": "is    the    recorded    history    of operations performed on a file",
+      "C": "can   be   used   to   restore   lost information",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A race condition occurs when",
+    "options": {
+      "A": "Two concurrent activities interact to cause a processing error",
+      "B": "two users of the DBMS are interacting with different files at the same time",
+      "C": "both (a) and (b)",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "An indexing operation",
+    "options": {
+      "A": "sorts a file using a single key",
+      "B": "sorts file using two keys",
+      "C": "establishes an index for a file",
+      "D": "both (b) and (c)",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "database-systems"
+  },
+  {
+    "question": "The on-line, softcopy display a customer's charge account to respond to an inquiry is an examples of a",
+    "options": {
+      "A": "forecasting report",
+      "B": "exception report",
+      "C": "regularly scheduled report",
+      "D": "on demand report",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "In SQL, which command(s) is(are) used to create a synonym for a schema object?",
+    "options": {
+      "A": "CREATE SCHEMA",
+      "B": "CREATE SYNONYM",
+      "C": "CREATE SAME",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  },
+  {
+    "question": "If you want your database to include methods, you should use a _____ database.",
+    "options": {
+      "A": "Network",
+      "B": "Distributed",
+      "C": "Hierarchical",
+      "D": "Object-Oriented",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "In SQL, which of the following is not a data Manipulation Language Commands?",
+    "options": {
+      "A": "DELETE",
+      "B": "SELECT",
+      "C": "UPDATE",
+      "D": "CREATE",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Which of the following is not characteristic of a relational database model?",
+    "options": {
+      "A": "tables",
+      "B": "treelike structure",
+      "C": "complex logical relationships",
+      "D": "records",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A computer file contains several records. What does each record contain?",
+    "options": {
+      "A": "Bytes",
+      "B": "Words",
+      "C": "Fields",
+      "D": "Database",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "database-systems"
+  },
+  {
+    "question": "In SQL, the CREATE VIEW command is used",
+    "options": {
+      "A": "to recompile view",
+      "B": "to define a view of one or more tables or views",
+      "C": "to recompile a table",
+      "D": "to create a trigger",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A ____ Contains the smallest unit of meaningful data, so you might call it the basic building block for a data file.",
+    "options": {
+      "A": "File structure",
+      "B": "Records",
+      "C": "Fields",
+      "D": "Database",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "database-systems"
+  },
+  {
+    "question": "In the DBM approach, application programs perform the",
+    "options": {
+      "A": "storage function",
+      "B": "processing functions",
+      "C": "access control",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  },
+  {
+    "question": "In SQL, which command is used to create a database user?",
+    "options": {
+      "A": "ADD USER TO DATABASE",
+      "B": "MK USER",
+      "C": "CREATE USER",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "database-systems"
+  },
+  {
+    "question": "When performing a look-up operation using a form",
+    "options": {
+      "A": "you enter the search value into the form",
+      "B": "you look at each form sequentially until you see the one you want",
+      "C": "you type the key in an entry line, and the correct form is displayed",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A _____ means that one record in a particular record type is related to only one record of another record type.",
+    "options": {
+      "A": "One-to-one relationship",
+      "B": "One-to-many relationship",
+      "C": "Many-to-one relationship",
+      "D": "Many-to-many relationship",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A _____ database does not use pointers or physical links, but instead finds related records by examining the contents of fields.",
+    "options": {
+      "A": "Network",
+      "B": "Hierarchical",
+      "C": "Relational",
+      "D": "Object-Oriented",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "database-systems"
+  },
+  {
+    "question": "In SQL, which command(s) is(are) used to redefine an index's future storage allocation",
+    "options": {
+      "A": "ALTER INDEX",
+      "B": "REDEFINE INDEX",
+      "C": "MODIFY INDEX",
+      "D": "DO INDEX",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Which of the following is a serious problem of file management systems?",
+    "options": {
+      "A": "difficult to update",
+      "B": "lack of data independence",
+      "C": "data redundancy",
+      "D": "program dependence",
+      "E": "All of the above"
+    },
+    "answer": "E",
+    "topic": "database-systems"
+  },
+  {
+    "question": "With respect to data input, the most accurate description of batch control is",
+    "options": {
+      "A": "dividing documents to be entered into batches",
+      "B": "controlling the input of each input clerk",
+      "C": "comparing to a pre-calculated figure the total of a data item summed across a batch records put into the system",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "database-systems"
+  },
+  {
+    "question": "In SQL, which command is used to select data in rows and column from one or more tables?",
+    "options": {
+      "A": "CHOOSE",
+      "B": "SELECT",
+      "C": "LIST",
+      "D": "BROWSE",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A scheme describes",
+    "options": {
+      "A": "data elements",
+      "B": "records and files",
+      "C": "record relationships",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A report form",
+    "options": {
+      "A": "appears on the computer monitor during data entry",
+      "B": "is used during report generation to format data",
+      "C": "both (a) and (b)",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A computer file can be best described as",
+    "options": {
+      "A": "a single data item",
+      "B": "a general collection of data items",
+      "C": "an  orderly  collection  of data items",
+      "D": "a random collection of data items",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A good query system",
+    "options": {
+      "A": "can accept English language commands",
+      "B": "allows non-programmers to access information stored in a database",
+      "C": "can be accessed only by data processing professionals",
+      "D": "both (a) and (b)",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  },
+  {
+    "question": "If you want to organize a file in multiple ways, it is better to _____ the data rather than to sort it.",
+    "options": {
+      "A": "Delete",
+      "B": "Update",
+      "C": "Sort Key",
+      "D": "Index",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "The modify operation is likely to be done after",
+    "options": {
+      "A": "Delete",
+      "B": "Look-up",
+      "C": "Insert",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  },
+  {
+    "question": "One data dictionary software package is called",
+    "options": {
+      "A": "DB/DC dictionary",
+      "B": "TOTAL",
+      "C": "ACCESS",
+      "D": "any of the above",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "One approach to standardizing storing of data",
+    "options": {
+      "A": "MIS",
+      "B": "structured programming",
+      "C": "CODASYL specifications",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "database-systems"
+  },
+  {
+    "question": "What software packages are commonly used for businesses that have to track extensive lists of clients and inventory?",
+    "options": {
+      "A": "Special purpose packages",
+      "B": "Custom made programs",
+      "C": "Single function application packages",
+      "D": "Data management packages",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A multiple-form file management system",
+    "options": {
+      "A": "lets you define different forms for different operations",
+      "B": "lets you create a look-up form with an associated read-only password to prevent access by unauthorized users",
+      "C": "both (a) and (b)",
+      "D": "allow you to entry data in all the forms",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "database-systems"
+  },
+  {
+    "question": "The term _____ is sometimes used to refer to a data file in which all the records have the same record format, that is, the same field names, field lengths, and data types.",
+    "options": {
+      "A": "Database",
+      "B": "Table",
+      "C": "Flat file",
+      "D": "Data structure",
+      "E": "None of the above"
+    },
+    "answer": "C",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A _____ Contains fields of data about one entity.",
+    "options": {
+      "A": "Record",
+      "B": "File",
+      "C": "Fields",
+      "D": "Document",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A condition that led to the development of databases was",
+    "options": {
+      "A": "a demand for more data to support information needs",
+      "B": "an increase in the amount of data handled by organizations",
+      "C": "the proliferation of data files",
+      "D": "All of the above",
+      "E": "None of the above."
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "The _____ command is used to allocates an extent for the table in SQL",
+    "options": {
+      "A": "MODIFY ALLOCATES",
+      "B": "MODIFY TABLE",
+      "C": "ALTER TABLE",
+      "D": "REDEFINE TABLE",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Embedded pointer provide",
+    "options": {
+      "A": "a secondary access path",
+      "B": "a physical record key",
+      "C": "an inverted index",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Which of the following is a type of DBMS software?",
+    "options": {
+      "A": "database manipulation language",
+      "B": "query language",
+      "C": "utilities",
+      "D": "report writer",
+      "E": "All of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Data items grouped together for storage purposes are called a",
+    "options": {
+      "A": "record",
+      "B": "title",
+      "C": "list",
+      "D": "string",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "The activity of a file",
+    "options": {
+      "A": "is a low percentages of number of records added or deleted from a file",
+      "B": "if high, reduces processing efficiency for sequential and nonsequential files",
+      "C": "is a measure of the percentage of existing records updated during a run",
+      "D": "refers to how closely the files fits into the allocated",
+      "E": "None of the above."
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Versatile  report  generators  can provide",
+    "options": {
+      "A": "Columnar totals",
+      "B": "Subtotals",
+      "C": "Calculations",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Related fields in a data base are grouped to form",
+    "options": {
+      "A": "data file",
+      "B": "data record",
+      "C": "menu",
+      "D": "bank",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A _____ means that one record in a particular record type can be related to many records in another record type and vice-versa.",
+    "options": {
+      "A": "One-to-one relationship",
+      "B": "One-to-many relationship",
+      "C": "Many-to-one relationship",
+      "D": "Many-to-many relationship",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "In SQL, the _____ command is used to recompile a view",
+    "options": {
+      "A": "COMPILE VIEW",
+      "B": "DEFINE VIEW",
+      "C": "CREATE VIEW",
+      "D": "ALTER VIEW",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A list in alphabetical order",
+    "options": {
+      "A": "is in descending order",
+      "B": "is in ascending order",
+      "C": "is the result of a sort operation",
+      "D": "both (b) and (c)",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "If a piece of data is stored in two places in the database, then",
+    "options": {
+      "A": "storage space is wasted",
+      "B": "changing the data is one spot will cause data inconsistency",
+      "C": "it can be more easily accessed",
+      "D": "both (a) and (b)",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A data dictionary is a special file that contains",
+    "options": {
+      "A": "the names of all    fields in all files",
+      "B": "the data types of all fields in all files",
+      "C": "the widths of all fields in all files",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A file that is organized in uniform format is formally referred to as a _____ or a database file.",
+    "options": {
+      "A": "Document",
+      "B": "Database",
+      "C": "Record",
+      "D": "Structured data file",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A form can be used to",
+    "options": {
+      "A": "modify records",
+      "B": "delete records",
+      "C": "format printed output",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Which language has recently become the de-facto standard for interfacing application programs with relational database system?",
+    "options": {
+      "A": "Oracle",
+      "B": "SQL",
+      "C": "dBASE",
+      "D": "4GL",
+      "E": "None of the above"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  },
+  {
+    "question": "In SQL, the CREATE TABLE is used",
+    "options": {
+      "A": "to create a table, defining its columns, integrity constrains, and storage allocation",
+      "B": "to add a column/integrity constraint to a table",
+      "C": "to redefine a column",
+      "D": "to change a table's storage characteristics",
+      "E": "All of the above"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Which of the following is not true of the traditional approach to information processing?",
+    "options": {
+      "A": "There is common sharing of data among the various applications",
+      "B": "It is file-oriented",
+      "C": "Programs are dependent on the files",
+      "D": "It is inflexible",
+      "E": "All of the above are true"
+    },
+    "answer": "A",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Batch processing is appropriate if",
+    "options": {
+      "A": "a large computer system is available",
+      "B": "only a small computer system is available",
+      "C": "only a few transactions are involved",
+      "D": "All of the above",
+      "E": "None of the above"
+    },
+    "answer": "E",
+    "topic": "database-systems"
+  },
+  {
+    "question": "What is the abbreviation used for a software package that permits the users to create, retrieve and maintain records in a database?",
+    "options": {
+      "A": "DASD",
+      "B": "FMS",
+      "C": "EMMS",
+      "D": "DBMS",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "topic": "database-systems"
+  },
+  {
+    "question": "Which of the following is not an advantage of the data-base approach?",
+    "options": {
+      "A": "elimination of the data redundancy",
+      "B": "ability to associate related data",
+      "C": "increased security",
+      "D": "program/data independence",
+      "E": "All of the above are advantages"
+    },
+    "answer": "E",
+    "topic": "database-systems"
+  },
+  {
+    "question": "A data dictionary doesn't provide information about:",
+    "options": {
+      "A": "where data is located",
+      "B": "the size of the disk storage device",
+      "C": "It allows a many-to-many relationship",
+      "D": "It is conceptually simple",
+      "E": "It will be the dominant data base of the future"
+    },
+    "answer": "B",
+    "topic": "database-systems"
+  }
+]
