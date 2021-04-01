@@ -1,0 +1,93 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel="stylesheet" href="/style.css")
+    style.
+      * {
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      }
+      .topnav {
+      overflow: hidden;
+      background-color: palevioletred;
+      height: 56px;
+      font-size: 20px;
+      }
+      .topnav p {
+      float: left;
+      //- display: block;
+      color: floralwhite;
+      text-align: center;
+      padding: 0px 25px;
+      text-decoration: none;
+      }
+      .topnav a {
+      float: right;
+      display: block;
+      color: floralwhite;
+      text-align: center;
+      padding: 19px 25px;
+      text-decoration: none;
+      }
+      .topnav a:hover {
+      background-color: lightcoral;
+      color: cornsilk;
+      }
+      .Tiles {
+        width: 100%;
+      }
+      .Message {
+        justify-content: space-around;
+        padding: 20px 20px;
+        background-color: bisque;
+      }
+      .content {
+      height: 580px;
+      background-color: #ddd;
+      padding: 10px;
+      }
+      .main {
+      font-size: 28px;
+      padding: 0px 10px;
+      }
+      @media screen and (max-height: 450px) {
+      .sidenav {padding-top:15px;}
+      .sidenav a {font-size: 18px;}
+      }
+  body
+    .topnav
+      p Hello #{userName} !
+      a(href='/auth/logout') Logout
+    .main
+      div.Tiles
+        div.Message
+          a(href='/questions/object-oriented-programming-using-cpp/1')
+            h2.Title Object Oriented Programming using C++
+          a(href='/test/object-oriented-programming-using-cpp')
+            h3.Title Take Test
+        div.Message
+          a(href='/questions/unix/1')
+            h2.Title Unix
+          a(href='/test/unix')
+            h3.Title Take Test
+        div.Message
+          a(href='/questions/operating-systems-concepts/1')
+            h2.Title Operating System
+          a(href='/test/operating-systems-concepts')
+            h3.Title Take Test
+      div.Tiles
+        div.Message
+          a(href='/questions/networking/1')
+            h2.Title Networking
+          a(href='/test/networking')
+            h3.Title Take Test
+        div.Message
+          a(href='/questions/database-systems/1')
+            h2.Title Database Management System
+          a(href='/test/database-systems')
+            h3.Title Take Test

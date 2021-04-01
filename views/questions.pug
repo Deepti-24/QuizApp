@@ -1,0 +1,148 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css')
+    style.
+      body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      }
+      .topnav {
+      overflow: hidden;
+      background-color: palevioletred;
+      height: 67px;
+      font-size: 20px;
+      }
+      .topnav a {
+      float: right;
+      display: block;
+      color: floralwhite;
+      text-align: center;
+      padding: 19px 25px;
+      text-decoration: none;
+      }
+      .topnav a:hover {
+      background-color: lightcoral;
+      color: cornsilk;
+      }
+      .submitButton {
+        padding: 5px 5px;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 8px 30px;
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: thistle;
+      }
+      .submitButton:hover {
+        background-color: darkgrey;
+        color: black;
+      }
+      .main {
+      margin-left: 100px;
+      font-size: 22px;
+      padding: 0px 10px;
+      }
+  body
+    - var prev = curPage>1?curPage-1:curPage;
+    - var next = curPage<8?+curPage+1:curPage;
+    .topnav
+      a(href='/userHome') Home
+      a(href='/auth/logout') Logout
+    .main
+      if questions.length
+        each question, index in questions
+          p #{+index+ +(curPage*10)-9}) #{question.question}
+          if question.options.E
+            table
+              tr
+                td 
+                  input(type='radio' name='qn'+ index +'' value='A')
+                  label   A. #{question.options.A}
+              tr  
+                td 
+                  input(type='radio' name='qn'+ index +'' value='B')
+                  label   B. #{question.options.B}
+              tr  
+                td
+                  input(type='radio' name='qn'+ index +'' value='C') 
+                  label   C. #{question.options.C}
+              tr  
+                td 
+                  input(type='radio' name='qn'+ index +'' value='D')
+                  label   D. #{question.options.D}
+              tr  
+                td 
+                  input(type='radio' name='qn'+ index +'' value='E')
+                  label   E. #{question.options.E}
+            button.submitButton(type='button' onclick='Click(\'' + question.answer + '\',' + index + ')') Submit
+            br
+            div(id='result'+index+'')
+          else if question.options.C
+            table
+              tr
+                td 
+                  input(type='radio' name='qn' + index + '' value='A')
+                  label   A. #{question.options.A}
+              tr  
+                td 
+                  input(type='radio' name='qn' + index + '' value='B')
+                  label   B. #{question.options.B}
+              tr  
+                td
+                  input(type='radio' name='qn' + index + '' value='C') 
+                  label   C. #{question.options.C}
+              tr  
+                td 
+                  input(type='radio' name='qn' + index + '' value='D')
+                  label   D. #{question.options.D}
+            button.submitButton(type='button' onclick='Click(\'' + question.answer + '\',' + index + ')') Submit
+            br
+            div(id='result'+index+'')
+          else 
+            table
+              tr
+                td 
+                  input(type='radio' name='qn' + index + '' value='A')
+                  label   A. #{question.options.A}
+              tr  
+                td 
+                  input(type='radio' name='qn' + index + '' value='B')
+                  label   B. #{question.options.B}
+            button.submitButton(type='button' onclick='Click(\'' + question.answer + '\',' + index + ')') Submit
+            br
+            div(id='result'+index+'')
+        pre
+
+
+
+        .w3-center.w3-bar.w3-xlarge
+          a.w3-button.w3-hover-pink(href='/questions/'+topic+'/'+prev) «
+          a.w3-button.w3-hover-pink(href='/questions/'+topic+'/1') 1
+          a.w3-button.w3-hover-pink(href='/questions/'+topic+'/2') 2
+          a.w3-button.w3-hover-pink(href='/questions/'+topic+'/3') 3
+          a.w3-button.w3-hover-pink(href='/questions/'+topic+'/4') 4
+          a.w3-button.w3-hover-pink(href='/questions/'+topic+'/5') 5
+          a.w3-button.w3-hover-pink(href='/questions/'+topic+'/6') 6
+          a.w3-button.w3-hover-pink(href='/questions/'+topic+'/7') 7
+          a.w3-button.w3-hover-pink(href='/questions/'+topic+'/8') 8
+          a.w3-button.w3-hover-pink(href='/questions/'+topic+'/'+next) »
+      else
+        p No questions
+    script.
+      function Click(answer, index) {
+      var ele = document.getElementsByName('qn'+ index +'');
+      for(i = 0; i < ele.length; i++) {
+      if(ele[i].checked){
+      if(ele[i].value===answer)
+      document.getElementById('result'+index+'').innerHTML= "Yay! You are right:)";
+      else
+      document.getElementById('result'+index+'').innerHTML= "Oops! You are wrong:(  The answer is "+answer+".";
+      break;
+      }
+      }
+      }

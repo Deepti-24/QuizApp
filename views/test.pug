@@ -1,0 +1,202 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css')
+    style.
+      body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      }
+      .topnav {
+      overflow: hidden;
+      background-color: palevioletred;
+      height: 67px;
+      font-size: 20px;
+      }
+      .topnav a {
+      float: right;
+      display: block;
+      color: floralwhite;
+      text-align: center;
+      padding: 19px 25px;
+      text-decoration: none;
+      }
+      .topnav p {
+      float: left;
+      //- display: block;
+      color: floralwhite;
+      text-align: center;
+      padding: 0px 25px;
+      text-decoration: none;
+      }
+      .topnav a:hover {
+      background-color: lightcoral;
+      color: cornsilk;
+      }
+      .endButton {
+        border: none;
+        padding: 10px 15px;
+        text-align: center;
+        color: floralwhite;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        margin: 20px 550px;
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: crimson;
+        //- border: 2px solid palevioletred;
+      }
+      .endButton:hover {
+        background-color: palevioletred;
+        color: white;
+      }
+      .submitButton {
+        padding: 5px 5px;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 8px 30px;
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: thistle;
+      }
+      .submitButton:hover {
+        background-color: darkgrey;
+        color: black;
+      }
+      .main {
+      margin-left: 100px;
+      font-size: 22px;
+      padding: 0px 10px;
+      }
+      .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      }
+  body
+    .topnav#topNav
+      p#timer
+      a(href='/userHome') Home
+      a(href='/auth/logout') Logout
+    .main
+      if questions.length
+        each question, index in questions
+          p #{+index+ +1}) #{question.question}
+          if question.options.E
+            table
+              tr
+                td 
+                  input(type='radio' name='qn'+ index +'' value='A')
+                  label   A. #{question.options.A}
+              tr  
+                td 
+                  input(type='radio' name='qn'+ index +'' value='B')
+                  label   B. #{question.options.B}
+              tr  
+                td
+                  input(type='radio' name='qn'+ index +'' value='C') 
+                  label   C. #{question.options.C}
+              tr  
+                td 
+                  input(type='radio' name='qn'+ index +'' value='D')
+                  label   D. #{question.options.D}
+              tr  
+                td 
+                  input(type='radio' name='qn'+ index +'' value='E')
+                  label   E. #{question.options.E}
+            button.submitButton(type='button' onclick='Click(\'' + question.answer + '\',' + index + ')') Submit
+            br
+          else if question.options.C
+            table
+              tr
+                td 
+                  input(type='radio' name='qn' + index + '' value='A')
+                  label   A. #{question.options.A}
+              tr  
+                td 
+                  input(type='radio' name='qn' + index + '' value='B')
+                  label   B. #{question.options.B}
+              tr  
+                td
+                  input(type='radio' name='qn' + index + '' value='C') 
+                  label   C. #{question.options.C}
+              tr  
+                td 
+                  input(type='radio' name='qn' + index + '' value='D')
+                  label   D. #{question.options.D}
+            button.submitButton(type='button' onclick='Click(\'' + question.answer + '\',' + index + ')') Submit
+            br
+          else 
+            table
+              tr
+                td 
+                  input(type='radio' name='qn' + index + '' value='A')
+                  label   A. #{question.options.A}
+              tr  
+                td 
+                  input(type='radio' name='qn' + index + '' value='B')
+                  label   B. #{question.options.B}
+            button.submitButton(type='button' onclick='Click(\'' + question.answer + '\',' + index + ')') Submit
+            br
+        br
+        button.endButton(type='button' id='endTest' onclick='endTest()') End Test
+        br
+        #score
+      else
+        p No questions
+    script.
+      var attempted= 0;
+      var correct= 0;
+      var distance = 600000;
+
+      window.onscroll = function() {fixedHeader()};
+      var header = document.getElementById("topNav");
+      var sticky = header.offsetTop;
+
+      function fixedHeader() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+
+      var x = setInterval(function() {
+      distance-=1000;
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      if (seconds < 10) {
+      seconds = `0${seconds}`;
+      }
+      if (minutes < 10) {
+      minutes = `0${minutes}`;
+      }
+      document.getElementById("timer").innerHTML = minutes + ":" + seconds;
+      if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("timer").innerHTML = "TIME UP!";
+      document.getElementById("endTest").disabled = true;
+      }
+      }, 1000);
+
+      function Click(answer, index) {
+      attempted++;
+      var ele = document.getElementsByName('qn'+ index +'');
+      for(i = 0; i < ele.length; i++) {
+      if(ele[i].checked){
+      if(ele[i].value===answer){
+      correct++;
+      }
+      break;
+      }
+      }
+      }
+      function endTest() {
+      document.getElementById('score').innerHTML="You attempted "+attempted+" questions of which you  have answered "+correct+" questions correctly.";
+      }
+      

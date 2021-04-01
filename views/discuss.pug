@@ -1,0 +1,102 @@
+doctype html
+html(lang='en')
+  head
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js')
+    meta(charset='utf-8')
+    title #{title}
+    link(rel="stylesheet" href="/style.css")
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    style.
+      * {
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      flex-direction: column;
+      }
+      .topnav {
+      overflow: hidden;
+      background-color: palevioletred;
+      height: 56px;
+      font-size: 20px;
+      }
+      .topnav a {
+      float: right;
+      display: block;
+      color: floralwhite;
+      text-align: center;
+      padding: 19px 25px;
+      text-decoration: none;
+      }
+      .topnav a:hover {
+      background-color: lightcoral;
+      color: cornsilk;
+      }
+      .content {
+      height: 450px;
+      color: darkslategray; 
+      padding: 10px;
+      align-items: baseline;
+      display: flex;
+      }
+      .form-signin {
+      background: white;
+      border-bottom: var(--ui-shadow-border);
+      box-shadow: var(--ui-shadow);
+      border-radius: 2px;
+      padding: 20px;
+      height: 72px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      }
+      .form-signin .form-control {
+      box-sizing: border-box;
+      padding: 5px;
+      font-size: 15px;
+      border: 1px solid #e8c1a4;
+      border-radius: 2px;
+      width: 1238px;
+      box-shadow: 1px 1px 0px 0px #b4acc1;
+      }
+      .form-signin .form-control:focus {
+      z-index: 2;
+      background-color: #e8e0cc;
+      outline: none;
+      outline-offset: unset;
+      }
+      .form-buttons {
+      display: flex;
+      justify-content: flex-end;
+      width: 175px;
+      }
+      .form-button--okay{
+      border: 1px solid white;
+      background-color: #1a8099;
+      height: 30px;
+      border-radius: 15px;
+      color: #e8c1a4;
+      width: 70px;
+      box-shadow: 1px 1px 0px 1px #ccc;
+      cursor: pointer;
+      }
+  body
+    .topnav
+        a(href='/userHome') Home
+    .content
+        if queries.length
+            each query, index in queries
+                p #{+index+ +1} #{query.query}
+                form(action="#", method='')
+                    input#question(type='text' name='question' value=query.query)
+                    input#reply(type='text' name='reply' placeholder='Write your reply here')
+                    button(type='submit') Enter
+    form.form-signin(action="/discuss" method='post')
+        .form-fields
+            input#query.form-control(type='text' name='query' placeholder='Write your question here' required='' autofocus='')
+        .form-buttons
+            button.form-button--okay(type='submit') Enter
+

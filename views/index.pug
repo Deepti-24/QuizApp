@@ -1,0 +1,17 @@
+extends layout
+block layout-content
+  div.View
+    h1.Banner COMSCIGO
+    //- br
+    //- h2.indexTitle Computer Science Quiz Portal
+    div.Tiles
+      div.Message
+        h2.Title New User!
+        a(href="/users")
+          .NavButtons
+            div.NavButton Register to ComSciGo
+      div.Message
+        h2.Title Hey ComSciGoer!
+        a(href="/auth")
+          .NavButtons
+            div.NavButton Just Dive In

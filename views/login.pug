@@ -1,0 +1,115 @@
+doctype html
+html(lang='en')
+  head
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js')
+    meta(charset='utf-8')
+    title #{title}
+    link(rel="stylesheet" href="/style.css")
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    style.
+      * {
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+      background-image: url("./qm.jpg");
+      background-size: cover;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      }
+      .topnav {
+      overflow: hidden;
+      background-color: palevioletred;
+      height: 56px;
+      font-size: 20px;
+      }
+      .topnav a {
+      float: right;
+      display: block;
+      color: floralwhite;
+      text-align: center;
+      padding: 19px 25px;
+      text-decoration: none;
+      }
+      .topnav a:hover {
+      background-color: lightcoral;
+      color: cornsilk;
+      }
+      .content {
+      height: 450px;
+      color: darkslategray; 
+      padding: 10px;
+      align-items: center;
+      display: flex;
+      }
+      .form-signin {
+      background: white;
+      border-bottom: var(--ui-shadow-border);
+      box-shadow: var(--ui-shadow);
+      border-radius: 2px;
+      max-width: 330px;
+      padding: 20px;
+      margin: 0 auto;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      }
+      .form-signin .form-control {
+      box-sizing: border-box;
+      padding: 5px;
+      font-size: 15px;
+      border: 1px solid #e8c1a4;
+      border-radius: 2px;
+      box-shadow: 1px 1px 0px 0px #b4acc1;
+      }
+      .form-signin .form-control:focus {
+      z-index: 2;
+      background-color: #e8e0cc;
+      outline: none;
+      outline-offset: unset;
+      }
+      .form-signin input[type="email"] {
+      margin-bottom: -1px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+      }
+      .form-signin input[type="password"] {
+      margin-bottom: 10px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      }
+      .form-fields {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 95px;
+      }
+      .form-buttons {
+      display: flex;
+      justify-content: flex-end;
+      width: 175px;
+      }
+      .form-button--okay{
+      border: 1px solid white;
+      background-color: #1a8099;
+      height: 30px;
+      border-radius: 15px;
+      color: #e8c1a4;
+      width: 70px;
+      box-shadow: 1px 1px 0px 1px #ccc;
+      cursor: pointer;
+      }
+  body
+    .topnav
+      a(href='/') Home
+    .content
+      //- h1(align='center') Login
+      form.form-signin(action='/auth' method='post')
+        .form-fields
+          input#email.form-control(type='email' name='email' placeholder='Email ID' required='' autofocus='')
+          input#password.form-control(type='password' name='password' placeholder='Password' required='')
+        .form-buttons
+          button.form-button--okay(type='submit') Login
